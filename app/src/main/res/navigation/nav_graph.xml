@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/insertNotesFragment">
+
+    <fragment
+        android:id="@+id/insertNotesFragment"
+        android:name="com.example.roomnotesdb.ui.InsertNotesFragment"
+        android:label="fragment_insert_notes"
+        tools:layout="@layout/fragment_insert_notes" />
+    <fragment
+        android:id="@+id/viewAllNotesFragment"
+        android:name="com.example.roomnotesdb.ui.ViewAllNotesFragment"
+        android:label="fragment_view_all_notes"
+        tools:layout="@layout/fragment_view_all_notes" />
+    <fragment
+        android:id="@+id/searchNotesFragment"
+        android:name="com.example.roomnotesdb.ui.SearchNotesFragment"
+        android:label="fragment_search_notes"
+        tools:layout="@layout/fragment_search_notes" />
+</navigation>
